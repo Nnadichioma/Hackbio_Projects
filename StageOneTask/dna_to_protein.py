@@ -1,6 +1,7 @@
 # Task 1: Write a python function for translating DNA to protein
 
-# Defined a function that takes a DNA sequence as input and returns the translated protein
+# Define a function that takes a DNA sequence as input and returns the translated protein
+
 def translate_dna_to_protein(dna_sequence):
     # Dictionary that maps DNA codons (groups of 3 bases) to amino acids (single-letter codes)
     codon_table = {
@@ -22,7 +23,7 @@ def translate_dna_to_protein(dna_sequence):
         'TGC':'C', 'TGT':'C', 'TGA':'_', 'TGG':'W',   # Cysteine, Tryptophan
     }
     
-    # Created an empty string to store the resulting protein sequence
+    # Create an empty string to store the resulting protein sequence
     protein_sequence = ""
     
     # Process the DNA sequence three letters (one codon) at a time
@@ -43,7 +44,7 @@ def translate_dna_to_protein(dna_sequence):
     return protein_sequence
 
 
-# Example DNA sequence
+# DNA sequence
 dna_seq = "ATGGCCATTGTAATGGGCCGCTGAAAGGGTGACCGATAG"
 
 # Call the translation function and store the protein result
@@ -72,7 +73,6 @@ def hamming_distance(name1, name2):
     
     return distance
 
-# Example
 # defined my slack username and twitter handle
 slack_username = "Chioma"
 twitter_handle = "your_tech_sista"

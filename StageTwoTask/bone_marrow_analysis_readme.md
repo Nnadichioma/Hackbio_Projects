@@ -54,11 +54,8 @@ Because GitHub does not allow uploading large files (>25MB), the raw and process
 ## Environment Setup & Running the Notebook
 
 1. **Clone repository:**
-
 git clone <repository_url>
 cd HackBioInternship/StageTwoTask/
-
----
 
 2. **Create a virtual environment and install dependencies:**
 python -m venv venv
@@ -66,16 +63,14 @@ source venv/bin/activate       # Linux/macOS
 venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 
----
-
-3. **Download the raw and processed datasets**
+3. **Download the raw and processed datasets:**
 data/raw/bone_marrow.h5ad
 data/processed/bone_marrow_processed.h5ad
 
----
-
 4. **Open the Notebook**
 jupyter notebook:  notebooks/bone_marrow_analysis.ipynb
+
+---
 
 ## Step-by-Step Workflow
 | Step | Task / Deliverable | Key Analytical Approach |

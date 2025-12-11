@@ -1,0 +1,17 @@
+# **Literature Review Essay: Dissecting microbial communities with single-cell transcriptome analysis**
+
+## **Introduction**
+
+Microorganisms are essential to human health. They are necessary for metabolic functions in the gut and oral cavity, yet traditional approaches such as metagenomics and metatranscriptomics provide only averaged snapshots of bulk gene expression across populations. This masks critical cell-to-cell variation that underlies antibiotic resistance, biofilm formation, and stress adaptation. Single-cell RNA sequencing (scRNA-seq) overcomes these limitations by profiling gene expression at the cellular level, revealing microbial heterogeneity, division of labour, and activity of mobile genetic elements. Recent advances have adapted scRNA-seq to prokaryotes, despite challenges such as low mRNA content and rigid cell walls. This review by Pountain and Yanai (2025) examines current methods, applications, and future directions in microbial single-cell transcriptomics.
+
+## **Methods of single-cell transcriptomics**
+
+ScRNA-seq in bacteria studies gene activity in individual cells using various methods such as PETRI-seq, microSPLiT, and BaSSSH-seq, which use combinatorial indexing to add barcodes through repeated splitting and pooling, allowing thousands of cells to be analysed at once. Other approaches, such as ProBac-seq and smRandom-seq, utilise droplet-based systems, including the 10x Genomics Chromium platform, to isolate and barcode single cells for large-scale studies. Hybrid techniques such as BacDrop and M3-seq combine plate and droplet methods. After sequencing, data analysis identifies transcripts, reveals gene expression patterns, detects rare cell types, and explores microbial diversity and interactions.
+
+## **Applications of single-cell transcriptomics**
+
+Single-cell transcriptomics offers new insights into how individual microbes behave within complex communities. Instead of gene expression, it enables us to see how each cell differs, revealing unique cell types, functions, and responses that bulk methods often overlook. This approach helps uncover how microbes adapt to environmental changes, develop antibiotic resistance, and interact with their hosts. It also supports the discovery of new species and metabolic pathways. Overall, single-cell transcriptomics provides a more precise and a more detailed picture of microbial diversity and function at the single-cell level.
+
+## **The Gaps, Challenges & Future Directions**
+
+## Despite rapid advances, microbial single-cell transcriptomics faces key challenges: incomplete genome references limit transcript mapping in non-model microbes; sparse transcriptomic data and dropout events are complicating interpretation; limited integration with spatial, genetic, or metabolic data constrains functional insight; and lack of consistent standardised sample preparations across microbial communities. To address these gaps, solutions include CRISPRi-based perturbation screens to map gene networks, spatial transcriptomics to preserve context, and advanced computational tools to correct noise and infer cell states. These innovations promise to transform microbiology, from antibiotic discovery to the engineering of synthetic microbial communities. 

@@ -59,8 +59,10 @@ cd HackBioInternship/StageTwoTask/
 
 2. **Create a virtual environment and install dependencies:**
 python -m venv venv
-- source venv/bin/activate       # Linux/macOS
-- venv\Scripts\activate          # Windows
+**Linux/macOS**
+source venv/bin/activate
+**Windows**       
+venv\Scripts\activate
 pip install -r requirements.txt
 
 3. **Download the raw and processed datasets:**

@@ -111,7 +111,7 @@ data/processed/bone_marrow_processed.h5ad
 
 - Observed heterogeneity highlights functional diversity within immune populations.
 
-**Note:* - Leiden clustering was performed at multiple resolutions (0.2, 0.5, 1.0, 2.0) to explore cluster granularity. Resolution 1.0 was chosen for final annotation as it balanced biological interpretability and cluster separation.
+**Note:** - Leiden clustering was performed at multiple resolutions (0.2, 0.5, 1.0, 2.0) to explore cluster granularity. Resolution 1.0 was chosen for final annotation as it balanced biological interpretability and cluster separation.
 
 ---
 

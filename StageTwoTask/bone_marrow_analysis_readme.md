@@ -67,8 +67,8 @@ pip install -r requirements.txt
 data/raw/bone_marrow.h5ad
 data/processed/bone_marrow_processed.h5ad
 
-4. **Open the Notebook**
-jupyter notebook:  notebooks/bone_marrow_analysis.ipynb
+4. **Open the Notebook:**
+notebooks/bone_marrow_analysis.ipynb
 
 ---
 

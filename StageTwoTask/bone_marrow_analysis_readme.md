@@ -49,7 +49,7 @@ Because GitHub does not allow uploading large files (>25MB), the raw and process
 | decoupler | 2.1.2   |
 | requests  | 2.32.5  |
 
----                                                |
+---
 
 ## Environment Setup & Running the Notebook
 
